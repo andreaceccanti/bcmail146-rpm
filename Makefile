@@ -1,4 +1,4 @@
-name=bcmail146
+name=bouncycastle146-mail
 source_dir=sources
 rpmbuild_dir=$(shell pwd)/rpmbuild
 spec=$(name).spec
