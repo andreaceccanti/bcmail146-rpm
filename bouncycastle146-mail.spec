@@ -4,7 +4,7 @@
 Summary:          Bouncy Castle Mail Package for Java
 Name:             bouncycastle146-mail
 Version:          1.46
-Release:          1%{?dist}
+Release:          2%{?dist}
 Group:            System Environment/Libraries
 License:          MIT
 URL:              http://www.bouncycastle.org/
@@ -73,5 +73,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_javadocdir}/%{name}/
 
 %changelog
+* Wed May 7 2014 Andrea Ceccanti <andrea.ceccanti@cnaf.infn.it> - 1.46-2
+* Fix for SHA-512 bug. See https://issues.infn.it/jira/browse/VOMS-498
+
 * Tue Nov 13 2012 Andrea Ceccanti <andrea.ceccanti@cnaf.infn.it> - 1.46-1
 - Initial packaging
